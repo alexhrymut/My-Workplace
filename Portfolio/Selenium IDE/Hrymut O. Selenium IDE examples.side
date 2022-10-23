@@ -1,0 +1,1259 @@
+{
+  "id": "41856ad7-6eb1-445c-aa42-98b5eb572976",
+  "version": "2.0",
+  "name": "Hrymut O. Selenium IDE examples",
+  "url": "https://allo.ua",
+  "tests": [{
+    "id": "dee966cb-19c6-4258-8129-273f66a6c9e9",
+    "name": "Registration form (wrong pass lengh)",
+    "commands": [{
+      "id": "25dd83ee-7f19-42f8-aa68-9ab9200379e3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e5bd5a9-cf44-44c0-9270-55e759936e04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92136bb8-0649-45e9-8557-d7d91faac07f",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"__layout\"]/div/header/div[1]/div[2]/div[4]/div[1]/button",
+      "targets": [
+        ["css=.vi__info", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cded5e1-d846-48ce-abeb-3b5509c38d5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-tab:nth-child(2)",
+      "targets": [
+        ["css=.login-tab:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='customer-popup-menu']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "158112be-f65f-43ff-903e-4db472ae837c",
+      "comment": "",
+      "command": "type",
+      "target": "id=v-register-name",
+      "targets": [
+        ["id=v-register-name", "id"],
+        ["name=firstname", "name"],
+        ["css=#v-register-name", "css:finder"],
+        ["xpath=//input[@id='v-register-name']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate-register']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "4f766248-4681-4869-a7a6-84e2a1b89561",
+      "comment": "",
+      "command": "click",
+      "target": "id=v-register_telephone_number",
+      "targets": [
+        ["id=v-register_telephone_number", "id"],
+        ["name=telephone", "name"],
+        ["css=#v-register_telephone_number", "css:finder"],
+        ["xpath=//input[@id='v-register_telephone_number']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate-register']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b98d435-95cf-437b-b95f-de9d5b0d0ac8",
+      "comment": "",
+      "command": "type",
+      "target": "id=v-register_telephone_number",
+      "targets": [],
+      "value": "989009882"
+    }, {
+      "id": "614800af-1718-4c91-bbee-4099ef49bed8",
+      "comment": "",
+      "command": "click",
+      "target": "id=v-register-email",
+      "targets": [
+        ["id=v-register-email", "id"],
+        ["css=#v-register-email", "css:finder"],
+        ["xpath=//input[@id='v-register-email']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate-register']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c32c939-b588-4392-8532-34a53bf07db9",
+      "comment": "",
+      "command": "type",
+      "target": "id=v-register-email",
+      "targets": [
+        ["id=v-register-email", "id"],
+        ["css=#v-register-email", "css:finder"],
+        ["xpath=//input[@id='v-register-email']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate-register']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "test@ds.com"
+    }, {
+      "id": "3e847cf1-e22e-42d3-b4f2-31e0f1a18ab7",
+      "comment": "",
+      "command": "click",
+      "target": "id=vregister-password",
+      "targets": [
+        ["id=vregister-password", "id"],
+        ["name=password", "name"],
+        ["css=#vregister-password", "css:finder"],
+        ["xpath=//input[@id='vregister-password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate-register']/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c992d751-de14-411c-b52c-07b810843e66",
+      "comment": "",
+      "command": "type",
+      "target": "id=vregister-password",
+      "targets": [
+        ["id=vregister-password", "id"],
+        ["name=password", "name"],
+        ["css=#vregister-password", "css:finder"],
+        ["xpath=//input[@id='vregister-password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate-register']/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "2deb45ea-fe21-43ec-893f-f16656e8ed8e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=send",
+      "targets": [
+        ["name=send", "name"],
+        ["css=.modal-submit-button", "css:finder"],
+        ["xpath=//button[@name='send']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate-register']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Зареєструватися')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f8a6907-a0da-4744-9986-8b2072c3d470",
+      "comment": "",
+      "command": "click",
+      "target": "name=send",
+      "targets": [
+        ["name=send", "name"],
+        ["css=.modal-submit-button", "css:finder"],
+        ["xpath=//button[@name='send']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate-register']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Зареєструватися')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d487a59-71c6-40d2-aa65-e7c9f33eea43",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=send",
+      "targets": [
+        ["name=send", "name"],
+        ["css=.modal-submit-button", "css:finder"],
+        ["xpath=//button[@name='send']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate-register']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Зареєструватися')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "10b395ed-8aed-40d5-8eb1-a1075dbba8f0",
+    "name": "Search field",
+    "commands": [{
+      "id": "10198caf-1523-4634-8efe-34f16f1ba252",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6f8a565-1773-4999-950c-0c415e1cadc5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5695c884-b901-493b-a66a-6390008ea2c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Iphone"
+    }, {
+      "id": "a017e138-62d7-4ed9-be85-09a8d43f6dd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__search",
+      "targets": [
+        ["css=.vi__search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "20fe6bdc-dec8-41ab-b7f7-6c48164d3ea9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products-layout__item:nth-child(1) .active > .gallery__img",
+      "targets": [
+        ["css=.products-layout__item:nth-child(1) .active > .gallery__img", "css:finder"],
+        ["xpath=//img[@alt='Придбати -  Apple iPhone 14 128GB Midnight (MPUF3)']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div/div[2]/div[2]/div/div/div[2]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47b9964d-22f0-4628-9782-287d7ee7e6dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,131.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d0944ef-57ba-4a4d-b7fd-a3b8095d4347",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Фото № 2 Apple iPhone 14 128GB Midnight (MPUF3)']",
+      "targets": [
+        ["css=.m-thumbnails__slider-link:nth-child(3) > .m-thumbnails__slider-image", "css:finder"],
+        ["xpath=//img[@alt='Фото № 2 Apple iPhone 14 128GB Midnight (MPUF3)']", "xpath:img"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div/div/div/div/div[2]/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//div/a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6079cee3-b81b-4acd-ac80-9c04638bb3de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .m-thumbnails__slider-image",
+      "targets": [
+        ["css=.active > .m-thumbnails__slider-image", "css:finder"],
+        ["xpath=//img[@alt='Фото № 3 Apple iPhone 14 128GB Midnight (MPUF3)']", "xpath:img"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div/div/div/div/div[2]/div/a[3]/img", "xpath:idRelative"],
+        ["xpath=//div/a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52333d75-d38c-4cfb-9fee-a7157aa5f5fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-attributes-color__item:nth-child(6) use",
+      "targets": [
+        ["css=.p-attributes-color__item:nth-child(6) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9ca8da4-775b-4428-b2da-644da2666f23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-thumbnails__slider-link:nth-child(3) > .m-thumbnails__slider-image",
+      "targets": [
+        ["css=.m-thumbnails__slider-link:nth-child(3) > .m-thumbnails__slider-image", "css:finder"],
+        ["xpath=//img[@alt='Фото № 2 Apple iPhone 14 128GB (PRODUCT)RED (MPVA3)']", "xpath:img"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div/div/div/div/div[2]/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//div/a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e354beb6-2e6e-4ba3-a808-584fcaa64100",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-view__main",
+      "targets": [
+        ["css=.p-view__main", "css:finder"],
+        ["xpath=//div[@id='js-p-view']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aec5336-9d95-4e78-b76a-d62a667078df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .m-thumbnails__slider-image",
+      "targets": [
+        ["css=.active > .m-thumbnails__slider-image", "css:finder"],
+        ["xpath=//img[@alt='Фото № 4 Apple iPhone 14 128GB (PRODUCT)RED (MPVA3)']", "xpath:img"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div/div/div/div/div[2]/div/a[4]/img", "xpath:idRelative"],
+        ["xpath=//div/a[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a6869e7-c7fc-42cb-b4f9-bb03db225cb5",
+    "name": "Catalog menu",
+    "commands": [{
+      "id": "863702f2-309a-46d5-ab52-e31da19f9c3f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa666bd5-7e05-440b-b798-75c304d134b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f97ae35a-81ae-40ef-8d67-4cb1fd895582",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ct-button",
+      "targets": [
+        ["css=.ct-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "659ed23d-17c4-4f58-9fa3-480ffd11b89e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://allo.ua/ua/mobilnye-telefony-i-sredstva-svyazi/')]",
+      "targets": [
+        ["linkText=Смартфони та телефони", "linkText"],
+        ["css=.mm__item:nth-child(1) > .mm__a", "css:finder"],
+        ["xpath=//div[@id='js-menu-wrapper']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://allo.ua/ua/mobilnye-telefony-i-sredstva-svyazi/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Смартфони та телефони')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "890bdafd-c58c-4061-bc7a-c5fad58c09cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ct-button",
+      "targets": [
+        ["css=.ct-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63f10a99-1c6c-4fd8-a7b7-e06776f80f2d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Телевізори та мультимедіа",
+      "targets": [
+        ["linkText=Телевізори та мультимедіа", "linkText"],
+        ["css=.mm__item:nth-child(2) > .mm__a", "css:finder"],
+        ["xpath=//div[@id='js-menu-wrapper']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://allo.ua/ua/televizory-i-mediapleery/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Телевізори та мультимедіа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf8f567d-6246-4a25-bf42-5ffb949df75e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ct-button",
+      "targets": [
+        ["css=.ct-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f40460-f62b-45d3-adcb-d5f732944b4a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://allo.ua/ua/bytovaya-tehnika/')]",
+      "targets": [
+        ["linkText=Побутова техніка", "linkText"],
+        ["css=.mm__item:nth-child(3) > .mm__a", "css:finder"],
+        ["xpath=//div[@id='js-menu-wrapper']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://allo.ua/ua/bytovaya-tehnika/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Побутова техніка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "370bb1a8-caae-40e6-a216-9a430b9141d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ct-button",
+      "targets": [
+        ["css=.ct-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b64ea129-c644-40aa-b5f9-0e8c34e9fbcf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Аудіо",
+      "targets": [
+        ["linkText=Аудіо", "linkText"],
+        ["css=.mm__item:nth-child(8) > .mm__a", "css:finder"],
+        ["xpath=//div[@id='js-menu-wrapper']/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/naushniki-i-akustika/')])[2]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Аудіо')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "84c91964-08ef-416c-a69f-056b95e5f92c",
+    "name": "Shopping cart - adding-deleting",
+    "commands": [{
+      "id": "94c40b48-f30b-43bd-a1d7-033c4e559a5c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c493c5b7-0144-40ef-9cfb-fb2e0ae8f376",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d136de8-5cde-4972-b869-6c48a11b8111",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ct-button",
+      "targets": [
+        ["css=.ct-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fd2f9bf-da64-4b29-8518-9de7e726a860",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://allo.ua/ua/mobilnye-telefony-i-sredstva-svyazi/')]",
+      "targets": [
+        ["linkText=Смартфони та телефони", "linkText"],
+        ["css=.mm__item:nth-child(1) > .mm__a", "css:finder"],
+        ["xpath=//div[@id='js-menu-wrapper']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://allo.ua/ua/mobilnye-telefony-i-sredstva-svyazi/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Смартфони та телефони')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7577ef04-a95f-450d-93d2-b4f5ddb1ed5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portal-card:nth-child(2) > .portal-card__item:nth-child(1) .portal-card__link-container:nth-child(1) > .portal-card__link",
+      "targets": [
+        ["css=.portal-card:nth-child(2) > .portal-card__item:nth-child(1) .portal-card__link-container:nth-child(1) > .portal-card__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Xiaomi')])[27]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/products/mobile/proizvoditel-xiaomi/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a66dc1f4-7693-4755-8c5a-6cbd0bba719c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products-layout__item:nth-child(1) .active > .gallery__img",
+      "targets": [
+        ["css=.products-layout__item:nth-child(1) .active > .gallery__img", "css:finder"],
+        ["xpath=//img[@alt='Придбати - мобільний телефон і смартфон  Xiaomi Redmi Note 11 4/128 GB Graphite Gray']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div/div[2]/div[3]/div/div/div[2]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78bee919-03b9-40d9-a9b5-32199e762d83",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-buy-button",
+      "targets": [
+        ["id=product-buy-button", "id"],
+        ["css=#product-buy-button", "css:finder"],
+        ["xpath=//button[@id='product-buy-button']", "xpath:attributes"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//main/div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60e635e3-bffa-4bf0-ab67-41ffa9a30cdd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.remove > use",
+      "targets": [
+        ["css=.remove > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "04bb987d-c9ed-468f-99d4-a75535ffd84e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove",
+      "targets": [
+        ["css=.remove", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "49819b51-b849-489b-aaf0-0e687c7ea13e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__close > use",
+      "targets": [
+        ["css=.vi__close > use", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "51c8884d-cb1d-43ee-bbc7-15ed12d0fc93",
+    "name": "Top sale positions menu",
+    "commands": [{
+      "id": "557080b6-e4ce-4f2d-9661-d18f35e169f3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d80bf1b-6372-4d0c-93f0-f767cd1c364e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bd20a44-c00b-4f37-a21a-1632110d3534",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,172.8000030517578)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a39b74a-152a-4123-81bf-26489d53e2d4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5deaaac6-0ff0-4e9b-9926-4dd3131d0e63",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Смартфони",
+      "targets": [
+        ["linkText=Смартфони", "linkText"],
+        ["css=.h-products:nth-child(4) .snap-slider__item:nth-child(2) > .v-pt__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Смартфони')])[4]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div[3]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/products/mobile/')])[51]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b17e50e-c021-455b-a768-b1777ce85e12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Телевізори",
+      "targets": [
+        ["linkText=Телевізори", "linkText"],
+        ["css=.h-products:nth-child(4) .snap-slider__item:nth-child(3) > .v-pt__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Телевізори')])[4]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div[3]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/televizory/')])[13]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "222667aa-4e86-4743-ba9c-a1ba0d2d733a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='__layout']/div/div/div/div[3]/div/div/div[4]/a",
+      "targets": [
+        ["linkText=Кондиціонери", "linkText"],
+        ["css=.h-products:nth-child(4) .snap-slider__item:nth-child(4) > .v-pt__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Кондиціонери')])[2]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div[3]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/products/kondicionery/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a05b1b5f-9aaf-44c6-8a27-2253390f44e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки, ПК и планшети",
+      "targets": [
+        ["linkText=Ноутбуки, ПК и планшети", "linkText"],
+        ["css=.h-products:nth-child(4) .snap-slider__item:nth-child(5) > .v-pt__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки, ПК и планшети')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div[3]/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/planshety-i-gadzhety/')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбуки, ПК и планшети')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc07e011-8a0d-41ff-bdfd-ec2c45831bf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-products:nth-child(4) .snap-slider__item:nth-child(6) > .v-pt__link",
+      "targets": [
+        ["linkText=Пральні машини", "linkText"],
+        ["css=.h-products:nth-child(4) .snap-slider__item:nth-child(6) > .v-pt__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Пральні машини')])[2]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div[3]/div/div/div[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/stiralnye-mashiny/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00bf0caf-c1de-48bd-84ed-71fec393ce45",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Роботи-пилососи",
+      "targets": [
+        ["linkText=Роботи-пилососи", "linkText"],
+        ["css=.h-products:nth-child(4) .snap-slider__item:nth-child(7) > .v-pt__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Роботи-пилососи')])[3]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div[3]/div/div/div[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/roboty-pylesosy/')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8b57b2b-0a82-45e1-b8c5-95a77d06f5d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Персональний догляд",
+      "targets": [
+        ["linkText=Персональний догляд", "linkText"],
+        ["css=.h-products:nth-child(4) .snap-slider__item:nth-child(8) > .v-pt__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Персональний догляд')])[2]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div[3]/div/div/div[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/dlya-individualnogo-uhoda/')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a5b0642-fcb9-4b16-9666-53b3913715ec",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Смарт-годинники')])[4]",
+      "targets": [
+        ["linkText=Смарт-годинники", "linkText"],
+        ["css=.h-products:nth-child(4) .snap-slider__item:nth-child(9) > .v-pt__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Смарт-годинники')])[4]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div[3]/div/div/div[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/smart-chasy/')])[18]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "63f9b145-bfb3-4ecb-8803-cafe1b90a6f1",
+    "name": "Shopping cart - quantity change",
+    "commands": [{
+      "id": "8c21c6a0-a20e-4c95-8bc7-7aac0076483c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6996c212-337c-4607-957d-a8a4f48b35d5",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "button class=\"mh-burger__test\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b120bdd-4bca-4f62-bd62-f55fb72b23a7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=search-form__input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "430f0704-b786-48a1-a17f-4aebae38d247",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "css=.mh__sr .v-logo__img",
+      "targets": [
+        ["css=.mh__sr .v-logo__img", "css:finder"],
+        ["xpath=//img[@alt='Интернет-Магазин Allo']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "TESTWORD"
+    }, {
+      "id": "82d4ec71-4638-48a8-ad45-b1857218cb85",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Смартфони та телефони",
+      "targets": [
+        ["linkText=Смартфони та телефони", "linkText"],
+        ["css=.mm__item:nth-child(1) > .mm__a", "css:finder"],
+        ["xpath=//div[@id='js-menu-wrapper']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://allo.ua/ua/mobilnye-telefony-i-sredstva-svyazi/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Смартфони та телефони')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "846c3503-42fe-4591-98b5-ba8cd6ec1b89",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Samsung')])[11]",
+      "targets": [
+        ["css=.portal-card:nth-child(2) > .portal-card__item:nth-child(1) .portal-card__link-container:nth-child(3) > .portal-card__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Samsung')])[11]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/products/mobile/proizvoditel-samsung/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5b3cf59-fd93-49b9-bc0e-90307b16c2c4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Придбати - мобільний телефон і смартфон  Samsung Galaxy A52 6/128GB Black(SM-A525)']",
+      "targets": [
+        ["css=.products-layout__item:nth-child(1) .active > .gallery__img", "css:finder"],
+        ["xpath=//img[@alt='Придбати - мобільний телефон і смартфон  Samsung Galaxy A52 6/128GB Black(SM-A525)']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div/div[2]/div[3]/div/div/div[2]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc6d8fa6-ca7d-404c-814a-38b6d9c89037",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-buy-button use",
+      "targets": [
+        ["css=#product-buy-button use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3189697-df3e-4be4-b205-c1634e04a934",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.order-now",
+      "targets": [
+        ["css=.order-now", "css:finder"],
+        ["xpath=//footer/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7eadb18-f541-4827-a732-4aff669c255d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.order-now",
+      "targets": [
+        ["css=.order-now", "css:finder"],
+        ["xpath=//footer/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f62469e1-cbeb-480f-8af0-36602896f573",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qty__up > use",
+      "targets": [
+        ["css=.qty__up > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5adee3fc-4f82-423c-a0fd-f08b67be5341",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.qty__up > use",
+      "targets": [
+        ["css=.qty__up > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea1949a1-edde-4982-91d2-0fcd620887d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qty__up > use",
+      "targets": [
+        ["css=.qty__up > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c54d903f-a957-4f59-a76d-7d681fb04cd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__minus",
+      "targets": [
+        ["css=.vi__minus", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ed04ff9-398e-4094-8fe2-85ac70d49db0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__minus > use",
+      "targets": [
+        ["css=.vi__minus > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a88d564f-864c-41b8-ae55-73e73c47f6f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__close:nth-child(1) > use",
+      "targets": [
+        ["css=.vi__close:nth-child(1) > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "279a0389-4250-4082-81dd-506c524fefc3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,51.20000076293945)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c04b0510-6a7e-4beb-bb0d-ef85ce3686c8",
+    "name": "Localization switch, search with new language",
+    "commands": [{
+      "id": "9c8a34ea-6b60-4386-afe8-381eb9774bb7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4591fd5-76d7-471d-8eca-7fd3266d1efa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d808340d-8f42-4a96-9ba9-3af30e7f18f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mh-cart > .mh-button",
+      "targets": [
+        ["css=.mh-cart > .mh-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[4]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9926f63-b35a-4cc7-b028-b8171e22180c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mh-cart > .mh-button",
+      "targets": [
+        ["css=.mh-cart > .mh-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[4]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8a5f154-008d-455e-bea5-7a4ea98a3d7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mh-lang__item:nth-child(1)",
+      "targets": [
+        ["css=.mh-lang__item:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div[4]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'RU')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56b868da-f67d-4ed5-8656-dcc75b3d2dec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mh-loc > .mh-button",
+      "targets": [
+        ["css=.mh-loc > .mh-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Киев')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30006371-1eba-41b6-b3db-46038f958468",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mh-loc > .mh-button",
+      "targets": [
+        ["css=.mh-loc > .mh-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Киев')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0cd3c5a-43a8-4413-87f2-8404bdd68e4b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mh-loc > .mh-button",
+      "targets": [
+        ["css=.mh-loc > .mh-button", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Киев')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3edbaf8-fabc-4a33-8bfa-a4fb96e3f089",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Львов",
+      "targets": [
+        ["linkText=Львов", "linkText"],
+        ["css=.geo__city:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Львов')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/section/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://allo.ua/ru/l-viv/')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Львов')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "857b0bc6-33c2-4ee7-85e3-ecfceb15ecb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18d58cab-aa96-444d-b8d6-f24fbb1f23d0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vi__search",
+      "targets": [
+        ["css=.vi__search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b907fa9-cf48-4e76-9384-b250e1adbba4",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "стиральная машина"
+    }, {
+      "id": "f30af7c1-e9c9-4430-a808-c1722ca7dd2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__search",
+      "targets": [
+        ["css=.vi__search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "032c58dc-376c-49c9-bc07-619fa48bcf6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products-layout__item:nth-child(1) .active > .gallery__img",
+      "targets": [
+        ["css=.products-layout__item:nth-child(1) .active > .gallery__img", "css:finder"],
+        ["xpath=//img[@alt='Купить -  Стиральная машина Midea MFE50-U1006']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div/div[2]/div[3]/div/div/div[2]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a069e26-83c1-4d61-ac80-e14665b3ae0b",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "id=product-SELL-button",
+      "targets": [
+        ["id=product-buy-button", "id"],
+        ["css=#product-buy-button", "css:finder"],
+        ["xpath=//button[@id='product-buy-button']", "xpath:attributes"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7d9c224-e2c3-41fb-bebb-9231f2648509",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=search-form__input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b17f93d6-3962-4c69-9a58-26ba994a3fda",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "css=.p-view__header-title",
+      "targets": [
+        ["css=.p-view__header-title", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Стиральная машина Midea MFE50-U1006')]", "xpath:innerText"]
+      ],
+      "value": "МАШИН"
+    }, {
+      "id": "9e40f970-fdbd-404d-b0ab-032591e43c83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .m-thumbnails__slider-image",
+      "targets": [
+        ["css=.active > .m-thumbnails__slider-image", "css:finder"],
+        ["xpath=//img[@alt='Фото № 2 Стиральная машина Midea MFE50-U1006']", "xpath:img"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div/div/div/div/div[2]/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//div/a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c71185d6-fdad-4e29-91cc-90bcf2c46620",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-thumbnails__slider-link:nth-child(4) > .m-thumbnails__slider-image",
+      "targets": [
+        ["css=.m-thumbnails__slider-link:nth-child(4) > .m-thumbnails__slider-image", "css:finder"],
+        ["xpath=//img[@alt='Фото № 3 Стиральная машина Midea MFE50-U1006']", "xpath:img"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div/div/div/div/div[2]/div/a[3]/img", "xpath:idRelative"],
+        ["xpath=//div/a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f306970-4134-4e1a-9855-5f3416d5b6dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-tabs__tab-item:nth-child(3) .p-tabs__tab-title",
+      "targets": [
+        ["css=.p-tabs__tab-item:nth-child(3) .p-tabs__tab-title", "css:finder"],
+        ["xpath=//div[@id='js-tabs']/div/div/ul/li[3]/a/p", "xpath:idRelative"],
+        ["xpath=//li[3]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Характеристики')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86573947-7ca6-4d6f-a70b-c720b81fecba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,269)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41590bc2-2941-4c48-8141-b31fc5d00e9b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2454)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a9575fe4-9105-45dd-888d-a66265260b77",
+    "name": "\"Подарунки\" tab list",
+    "commands": [{
+      "id": "92b0804e-2860-4456-b0aa-2f05c38d209e",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/l-viv/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a67cc4c1-a1d9-4075-934a-9679c6964a63",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01494f82-fd36-4c24-a62c-8067f65009c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Акції",
+      "targets": [
+        ["linkText=Акції", "linkText"],
+        ["css=.mh-links > .mh-button:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Акції')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://allo.ua/ua/events-and-discounts/')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Акції')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca97bb01-ca30-445c-81f1-f1aa4699eeac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Подарунки",
+      "targets": [
+        ["linkText=Подарунки", "linkText"],
+        ["css=.promo-list__categories > a:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://allo.ua/ua/events-and-discounts/type-1/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5380fb0d-069f-49bb-8330-9f9d6513c15d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Нові",
+      "targets": [
+        ["linkText=Нові", "linkText"],
+        ["css=.promo-list__toolbar-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Нові')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://allo.ua/ua/events-and-discounts/type-1/dates-new/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Нові')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76f104e9-8c82-4e8b-b514-8470af66e680",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Нові",
+      "targets": [
+        ["linkText=Нові", "linkText"],
+        ["css=.promo-list__toolbar-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Нові')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/events-and-discounts/type-1/dates-new/')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fcd2392-c627-43f7-a985-e644e6e072c8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Нові",
+      "targets": [
+        ["linkText=Нові", "linkText"],
+        ["css=.promo-list__toolbar-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Нові')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ua/events-and-discounts/type-1/dates-new/')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87a63f24-dd07-4c60-b6d7-41c3649f4315",
+      "comment": "",
+      "command": "click",
+      "target": "css=.promo-list__item:nth-child(1) > img",
+      "targets": [
+        ["css=.promo-list__item:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[@alt='На кондиціонери Midea знижка на встановлення до 50% + Wi-Fi модуль!']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daeead56-1f31-4025-8876-6097a5b3c03c",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//h2[contains(.,'User')]",
+      "targets": [
+        ["css=.accordion:nth-child(5) .filter__title", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/div/div[2]/div[5]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[5]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Виробник')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0df85fe0-47e4-4cc2-9e01-357e25527f9c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=pricerange-from",
+      "targets": [
+        ["id=pricerange-from", "id"],
+        ["name=range-from", "name"],
+        ["css=#pricerange-from", "css:finder"],
+        ["xpath=//input[@id='pricerange-from']", "xpath:attributes"],
+        ["xpath=//div[@id='filter_id-price']/form/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a9fe4d0-6c42-40ec-a6aa-fb8842c2bea4",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "css=.accordion:nth-child(4) .filter__title",
+      "targets": [
+        ["css=.accordion:nth-child(4) .filter__title", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/div/div[2]/div[4]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/div/h2", "xpath:position"]
+      ],
+      "value": "$"
+    }, {
+      "id": "b7f01c1a-b0f5-477d-930d-2ab24badc932",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter_id-in_stock .vi",
+      "targets": [
+        ["css=#filter_id-in_stock .vi", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "406b7cca-8299-4938-b432-ee711d4d600d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter_id-504 .vi",
+      "targets": [
+        ["css=#filter_id-504 .vi", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "11e3e86c-10ed-49be-9623-1bd80be41b68",
+    "name": "ALLO (Level 1)",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dee966cb-19c6-4258-8129-273f66a6c9e9", "10b395ed-8aed-40d5-8eb1-a1075dbba8f0", "4a6869e7-c7fc-42cb-b4f9-bb03db225cb5", "84c91964-08ef-416c-a69f-056b95e5f92c", "51c8884d-cb1d-43ee-bbc7-15ed12d0fc93"]
+  }, {
+    "id": "f440dee0-59c8-4d8b-8632-3b55627b28d6",
+    "name": "ALLO (Level 2-3)",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["63f9b145-bfb3-4ecb-8803-cafe1b90a6f1", "c04b0510-6a7e-4beb-bb0d-ef85ce3686c8", "a9575fe4-9105-45dd-888d-a66265260b77"]
+  }],
+  "urls": ["https://allo.ua/"],
+  "plugins": []
+}
